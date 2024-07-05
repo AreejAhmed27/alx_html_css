@@ -24,6 +24,8 @@ nav{
     display: flex;
     align-items: end;
     justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 nav ul{
     list-style-type: none;
@@ -237,4 +239,59 @@ strong{
     display: flex;
     margin: auto;
     justify-content: center;
+}
+
+/*---------------------------------------F.A.Q Section---------------------------*/
+.FAQ h2{
+    color:black;
+    font-size: 55px;
+    font-family: source sans pro;
+    font-weight: lighter;
+    text-align: center;
+}
+.faq1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.faq1 div{
+    padding: 30px;
+    color: #071629;
+    text-align: justify;
+    font-size:14px ;
+    font-family: source sans pro;
+}
+.FAQ h3{
+    font-family: source sans pro;
+    font-size: 16px;
+    color: black;
+    padding-bottom: -15px;
+    text-align: justify;
+}
+
+/*-----------------------------------Footer Section---------------------------------*/
+.footer{
+    background-color: #071629;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+}
+.foot{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.foot div{
+    color: white;
+}
+.footer p{
+    text-align: center;
+    color: white;
+    font-family: source sans pro;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.foot i{
+    padding: 0.3rem;
 }
