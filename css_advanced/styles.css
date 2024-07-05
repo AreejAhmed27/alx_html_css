@@ -187,5 +187,54 @@ strong{
 }
 .videos .mins{
     color: #C271FF;
+}
+
+/*---------------------------------------Membership Section---------------------------*/
+.membership h2{
+    font-family: source sans pro;
+    color: #ffffff;
+    font-size: 30px;
+}
+.membership strong{
+    font-family: source sans pro;
+    color: #C271FF;
+    font-size: 30px;
+    font-weight: bold;
+}
+.membership{
+    background-color: #071629;
+    padding-bottom: 50px;
+}
+.membership .members{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-left: 170px;
+    padding-right: 100px;
+}
+.membership div{
+    padding: 0.2rem;
+}
+.membership button{
+    display: block;
+    margin: auto;
+}
+.membership h3{
+    font-family: source sans pro;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
+.membership p{
+    font-family: source sans pro;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+}
+.membership img{
+    display: flex;
+    margin: auto;
+    justify-content: center;
 }
