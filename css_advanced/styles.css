@@ -1,0 +1,106 @@
+/*-------------------------------------------------Colours------------------------------------*/
+:root {
+    --white: #ffffff;
+
+}
+
+/*--------------------------------------------------General-----------------------------------*/
+*,*::before, *::after {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(Object.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    margin-top: 35.02px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+/*--------------------------------------------------Nav-----------------------------------*/
+nav{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav img{
+    display: flex;
+    justify-content: flex-start;
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+nav li{
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: source sans pro;
+}
+
+/*---------------------------------------------Main Section------------------------------*/
+.spandiv{
+    font-family: Source sans pro;
+    font-weight: bold;
+    color: var(--white);
+    text-align: center;
+}
+h1{
+    font-size: 100px;
+    margin-top: 100px;
+}
+span{
+    padding: 1rem;
+}
+button{ 
+    background-color: #C271FF;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    box-shadow: black;
+    border-radius: 20PX;
+    color: white;
+    margin-top: 30px;
+}
+h2{
+    font-family: Source sans pro;
+    color: var(--white);
+    text-align: center;
+    padding-top: 150px;
+    font-size: 32px;
+}
+.pros{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.pros img{
+    border-radius: 700px;
+    display: flex;}
+.pros h3{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.pros p{
+    font-size: 14px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
