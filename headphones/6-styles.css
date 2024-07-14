@@ -214,7 +214,7 @@ nav a{
  .contact button{
     text-align: center; 
  }
- /*----------------------------our results section-------------------------*/
+ /*----------------------------footer section-------------------------*/
  .footer{
     background-color: #071629;
     padding-top: 40px;
@@ -242,41 +242,33 @@ nav a{
 .footer img{
     width: 170px;
 }
-@keyframes example {
-    from {background-color: red;}
-    to {background-color: black;}
-  }
+ /*----------------------------drawing a poentagon section-------------------------*/
+ style
+ {
+     margin: 0;
+     padding: 0;
+     background-color: #FF6565;
+     
+   }
+   /* creating the pentagon shape */
+   .pentagon{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     height: 0;
+     width: 180px;
+     border-top: 180px solid rgb(0, 66, 128);
+     border-left: 90px solid transparent;
+     border-right: 90px solid transparent; 
+   }
   
-  .wwd{
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-delay: 3s;
-  }
-  
-  @keyframes slidein {
-    from {
-      translate: 150vw 0;
-      scale: 200% 1;
-    }
-  
-    to {
-      translate: 0 0;
-      scale: 100% 1;
-    }
-  }
-  .divcont2{
-    animation-duration: 3s;
-    animation-name: slidein;
-  }
-  
-  @keyframes slidein {
-    from {
-      translate: -150vw 0;
-      scale: 200% 1;
-    }
-  
-    to {
-      translate: 0 0;
-      scale: 100% 1;
-    }
-  }
+   .pentagon:after{
+     position: absolute;
+     content: '';
+     border-bottom: 180px solid rgb(0, 66, 128);
+     border-left: 180px solid transparent;
+     border-right: 180px solid transparent;
+     bottom: 180px;
+     left: -90px;
+   }
