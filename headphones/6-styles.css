@@ -1,0 +1,282 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+a:hover{
+    color: #FF6565;
+    opacity: 0.9;
+}
+/*----------------------------main section-------------------------*/
+body{
+    background-image: url(images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+button{
+    border-radius: 60px;
+    border-color: #FF6565;
+    color: #ffffff;
+    padding: 0.5rem;
+    background-color:#FF6565 ;
+    box-shadow: #071629;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+header{
+    margin-top: 27px;
+}
+header img{
+    width: 130px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    flex-wrap: wrap;
+
+}
+nav a{
+    font-family: source sans pro;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 41px;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    text-align: center;
+}
+.main h1{
+    font-family: source sans pro;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+#pbold{
+    font-family: source sans pro;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.main p{
+    font-family: source sans pro;
+    font-size: 16px;
+    color: white;
+}
+/*----------------------------what we do section-------------------------*/
+.wwd h2{
+    margin-top: 300px;
+    font-family: source sans pro;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 40px;
+    color: #071629;
+}
+.wwd #phead{
+    font-family: source sans pro;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 50%;
+}
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 95px;
+    margin-bottom: 105px;
+
+}
+.cont h3{
+    font-family: source sans pro;
+    font-size: 18px;
+    font-weight: bold;
+    color: #071629;
+    margin-top: 25px;
+}
+.cont p{
+    font-family: source sans pro;
+    font-size: 14px;
+    color: #071629;
+    margin-top: 13px;
+}
+/*----------------------------our results section-------------------------*/
+.ourresults{
+    background-image: url(/images/headphones_hero_2.jpg);  
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    padding-bottom: 80px ;
+}
+.ourresults h2{
+    padding-top: 70px ; 
+    font-family: source sans pro;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #ffffff; 
+}
+.ourresults p{
+    font-family: source sans pro;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 40px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 50%;
+}
+.divcont2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;    
+    text-align: center;
+    margin-top: 95px;
+}
+.divcont2 img{
+    width: 180px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imgcont{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.center h3{
+    font-family: source sans pro;
+    font-size: 12px;
+    color: white;
+}
+.contact{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.contact h2{
+    font-family: source sans pro;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.contact label{
+    font-family: source sans pro;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.contact input{
+    border-width: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+ }
+ .contact button{
+    text-align: center; 
+ }
+ /*----------------------------our results section-------------------------*/
+ .footer{
+    background-color: #071629;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.foot{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foot div{
+    color: white;
+}
+.footer p{
+    text-align: center;
+    color: white;
+    font-family: source sans pro;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.foot i{
+    padding: 0.3rem;
+}
+.footer img{
+    width: 170px;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: black;}
+  }
+  
+  .wwd{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-delay: 3s;
+  }
+  
+  @keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+  .divcont2{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      translate: -150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
