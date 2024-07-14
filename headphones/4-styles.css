@@ -208,29 +208,3 @@ nav a{
     text-align: center; 
  }
  /*----------------------------our results section-------------------------*/
- .footer{
-    background-color: #071629;
-    padding-top: 40px;
-    padding-bottom: 10px;
-}
-.foot{
-    display: flex;
-    align-items: end;
-    justify-content: space-around;
-}
-.foot div{
-    color: white;
-}
-.footer p{
-    text-align: center;
-    color: white;
-    font-family: source sans pro;
-    padding-top: 20px;
-    font-size: 10px;
-}
-.foot i{
-    padding: 0.3rem;
-}
-.footer img{
-    width: 170px;
-}
